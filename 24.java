@@ -1,6 +1,7 @@
 import java.util.*;
 class Untitled {
 	public static void main(String[] args) {
+		boolean zetta = false;
 		Scanner keyboard = new Scanner(System.in);
 		System.out.print("Input four numbers: ");
 		int a = keyboard.nextInt();
@@ -251,14 +252,17 @@ class Untitled {
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
 			else if(answer63 ==24) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " / " + numbersToTry[i][3]); 
+		
 			else {
-				System.out.println(" It is impossible to achieve 24 with the following numbers " + a + " " +  b + " " + c + " " + d + ".");
+				zetta = true;
 			}
 		
 	
 			
-				
-	}		
-}
+		}
+		}
+	if(zetta= true)	
+			System.out.println("It is impossible to achieve 24 with the following numbers " + a + " " +  b + " " + c + " " + d + ".");	
+
 }
 }
