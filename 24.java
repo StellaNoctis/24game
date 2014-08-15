@@ -27,7 +27,35 @@ class Untitled {
 					
 		}
 		System.out.print("Your inputted numbers are " + a +" " +  b + " " + c + " " + d + ".");
-		
-		
-		}
+		int[][] numbersToTry = new int[][]{
+			{ a, b, c, d },
+			{ a, b, d, c },
+			{ a, c, b, d },
+			{ a, c, d, b },
+			{ a, d, c, b },
+			{ a, d, b, c },
+			{ b, a, c, d },
+			{ b, a, d, c },
+			{ b, c, a, b },
+			{ b, c, d, a },
+			{ b, d, a, c },
+			{ b, d, c, a },
+			{ c, a, b, d },
+			{ c, a, d, b },
+			{ c, b, a, d },
+			{ c, b, d, a },
+			{ c, d, a, b },
+			{ c, d, b, a },
+			{ d, a, b, c },
+			{ d, a, c, b },
+			{ d, b, a, c },
+			{ d, b, c, a },
+			{ d, c, a, b },
+			{ d, c, b, a },
+			
+		};
+	for(numbersToTry[i], )
+			
+				
+	}		
 }
