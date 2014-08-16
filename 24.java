@@ -30,30 +30,30 @@ class Untitled {
 		System.out.println("Your inputted numbers are " + a +" " +  b + " " + c + " " + d + ".");
 		double answer = 0;
 		double[][] numbersToTry = new double[][]{
-			{ a, b, c, d },
-			{ a, b, d, c },
-			{ a, c, b, d },
-			{ a, c, d, b },
-			{ a, d, c, b },
-			{ a, d, b, c },
-			{ b, a, c, d },
-			{ b, a, d, c },
-			{ b, c, a, b },
-			{ b, c, d, a },
-			{ b, d, a, c },
-			{ b, d, c, a },
-			{ c, a, b, d },
-			{ c, a, d, b },
-			{ c, b, a, d },
-			{ c, b, d, a },
-			{ c, d, a, b },
-			{ c, d, b, a },
-			{ d, a, b, c },
-			{ d, a, c, b },
-			{ d, b, a, c },
-			{ d, b, c, a },
-			{ d, c, a, b },
-			{ d, c, b, a },
+			{  a,  b,  c, d  },
+			{  a,  b,  d, c  },
+			{  a,  c,  b, d  },
+			{  a,  c,  d, b  },
+			{  a,  d,  b, c  },
+			{  a,  d,  c, b  },
+			{  b,  a,  c, d  },
+			{  b,  a,  d, c  },
+			{  b,  c,  a, d  },
+			{  b,  c,  d, a  },
+			{  b,  d,  a, c  },
+			{  b,  d,  c, a  },
+			{  c,  a,  b, d  },
+			{  c,  a,  d, b  },
+			{  c,  b,  a, d  },
+			{  c,  b,  d, a  },
+			{  c,  d,  a, b  },
+			{  c,  d,  b, a  },
+			{  d,  a,  b, c  },
+			{  d,  a,  c, b  },
+			{  d,  b,  a, c  },
+			{  d,  b,  c, a  },
+			{  d,  c,  a, b  },
+			{  d,  c,  b, a  },
 			
 		};
 	for(int i =0 ;i<24; i++ ){
@@ -124,138 +124,140 @@ class Untitled {
 			double answer62 = (numbersToTry[i][0] / numbersToTry[i][1] / numbersToTry[i][2] * numbersToTry[i][3]);
 			double answer63 = (numbersToTry[i][0] / numbersToTry[i][1] / numbersToTry[i][2] / numbersToTry[i][3]); 
 			
-			if(answer0 == 24)
+			if(answer0 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer1 == 24)
+			else if(answer1 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer2 == 24)
+			else if(answer2 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer3 == 24)
+			else if(answer3 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer4 == 24)
+			else if(answer4 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer5 == 24)
+			else if(answer5 == 24 )
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer6 ==24) 
+			else if(answer6 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer7 ==24) 
+			else if(answer7 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer8 ==24) 
+			else if(answer8 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer9 ==24) 
+			else if(answer9 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer10 ==24) 
+			else if(answer10 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer11 ==24) 
+			else if(answer11 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer12 ==24) 
+			else if(answer12 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer13 ==24) 
+			else if(answer13 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer14 ==24) 
+			else if(answer14 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer15 ==24) 
+			else if(answer15 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " + " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer16 ==24) 
+			else if(answer16 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer17 ==24) 
+			else if(answer17 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer18 ==24) 
+			else if(answer18 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer19 ==24) 
+			else if(answer19 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer20 ==24) 
+			else if(answer20 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer21 ==24) 
+			else if(answer21 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer22 ==24) 
+			else if(answer22 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer23 ==24) 
+			else if(answer23 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer24 ==24) 
+			else if(answer24 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer25 ==24) 
+			else if(answer25 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer26 ==24) 
+			else if(answer26 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer27 ==24) 
+			else if(answer27 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer28 ==24) 
+			else if(answer28 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer29 ==24) 
+			else if(answer29 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer30 ==24) 
+			else if(answer30 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer31 ==24) 
+			else if(answer31 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " - " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer32 ==24) 
+			else if(answer32 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer33 ==24) 
+			else if(answer33 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer34 ==24) 
+			else if(answer34 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer35 ==24) 
+			else if(answer35 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer36 ==24) 
+			else if(answer36 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer37 ==24) 
+			else if(answer37 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer38 ==24) 
+			else if(answer38 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer39 ==24) 
+			else if(answer39 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer40 ==24) 
+			else if(answer40 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer41 ==24) 
+			else if(answer41 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer42 ==24) 
+			else if(answer42 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer43 ==24) 
+			else if(answer43 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer44 ==24) 
+			else if(answer44 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer45 ==24) 
+			else if(answer45 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer46 ==24) 
+			else if(answer46 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer47 ==24) 
+			else if(answer47 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " * " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer48 ==24) 
+			else if(answer48 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer49 ==24) 
+			else if(answer49 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer50 ==24) 
+			else if(answer50 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer51 ==24) 
+			else if(answer51 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " + " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer52 ==24) 
+			else if(answer52 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer53 ==24) 
+			else if(answer53 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer54 ==24) 
+			else if(answer54 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer55 ==24) 
+			else if(answer55 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " - " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer56 ==24) 
+			else if(answer56 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer57 ==24) 
+			else if(answer57 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer58 ==24) 
+			else if(answer58 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer59 ==24) 
+			else if(answer59 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " * " + numbersToTry[i][2] + " / " + numbersToTry[i][3]);
-			else if(answer60 ==24) 	
+			else if(answer60 == 24 ) 	
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " + " + numbersToTry[i][3]);
-			else if(answer61 ==24) 
+			else if(answer61 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " - " + numbersToTry[i][3]);
-			else if(answer62 ==24) 
+			else if(answer62 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " * " + numbersToTry[i][3]);
-			else if(answer63 ==24) 
+			else if(answer63 == 24 ) 
 				System.out.println("It is possible to get 24 by using " + numbersToTry[i][0] + " / " + numbersToTry[i][1] + " / " + numbersToTry[i][2] + " / " + numbersToTry[i][3]); 
-		
-			else {
-				zetta = true;
-			}
+
+
+
+//			else {
+	//			zetta = true;
+		//	}
 		
 	
 			
